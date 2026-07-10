@@ -17,7 +17,7 @@ export async function renderPokemonDetailView(_, pokemonId) {
 
   outlet.innerHTML = `
     <section class="space-y-4">
-      <a href="#/" class="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 dark:text-blue-400"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+      <a href="#/" class="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 dark:text-blue-400">← Volver</a>
       <div class="grid gap-4 rounded-2xl bg-white p-6 shadow-sm dark:bg-slate-900 lg:grid-cols-[280px_1fr]">
         <div>
           <img class="mx-auto h-52 w-52 object-contain" src="${getPokemonImage(pokemon)}" alt="${pokemon.name}" />

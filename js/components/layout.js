@@ -1,7 +1,7 @@
 export function renderLayout(activeRoute, capturedCount) {
   const themeIcon = document.documentElement.classList.contains('dark')
-    ? '<i class="fa-solid fa-moon"></i>'
-    : '<i class="fa-solid fa-sun"></i>';
+    ? '🌙'
+    : '☀️';
 
   return `
     <div class="mx-auto min-h-screen max-w-7xl px-4 pb-8 pt-6 sm:px-6 lg:px-8">

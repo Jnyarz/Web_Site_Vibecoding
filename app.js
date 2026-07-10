@@ -61,7 +61,7 @@ function bindLayoutEvents() {
     const root = document.documentElement;
     const isDark = root.classList.toggle('dark');
     localStorage.setItem('pokemon-theme', isDark ? 'dark' : 'light');
-    toggle.innerHTML = isDark ? '<i class="fa-solid fa-moon"></i>' : '<i class="fa-solid fa-sun"></i>';
+    toggle.textContent = isDark ? '🌙' : '☀️';
   });
 }
 
